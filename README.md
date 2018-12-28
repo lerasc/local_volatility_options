@@ -19,5 +19,7 @@ Additionally, we provide a Python binding based on sip (https://www.ics.uci.edu/
 The core of the implementation, the actual option pricing, is found in LVoptions_.cpp. 
 The remaining files just serve to build the Python interface. 
 Build the Python binding with 
+
 >	python setup.py build_ext --inplace <br>	
+
 Then, import the function from the file Python_wrapper.py
